@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1095879553110",
+    "project_id": "sunumarche-366c4",
+    "storage_bucket": "sunumarche-366c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095879553110:android:1d31d56768d81ea1a2cbf7",
+        "android_client_info": {
+          "package_name": "com.example.sunumarche"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095879553110-k5pps8n7cmsamn49s6138b9fqoiqospp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunumarche",
+            "certificate_hash": "83fb568c44cddbec45a3e11acb204d15c47c16de"
+          }
+        },
+        {
+          "client_id": "1095879553110-5jfdvadud6ca597e5p06d008353voiec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8wLzP_xjQYQ4xX3jfzCfDN29cvw5Eq-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095879553110-5jfdvadud6ca597e5p06d008353voiec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
