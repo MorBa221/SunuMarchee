@@ -23,7 +23,7 @@ class _EcranPublicationState extends State<EcranPublication> {
   String localisation = '';
   bool _estEnCours = false;
 
-  // Liste des catégories disponibles pour l'utilisateur
+  
   final List<String> _categories = [
     'Téléphones & Tablettes',
     'Électronique & Informatique',
@@ -48,17 +48,17 @@ class _EcranPublicationState extends State<EcranPublication> {
 }
 
   Future<void> _prendrePhoto() async {
-  // Capture de la photo avec réduction de résolution pour préserver la RAM
+ 
   final XFile? photo = await _picker.pickImage(
     source: ImageSource.camera,
-    maxWidth: 1000,      // Limite la largeur (évite les photos trop lourdes)
-    maxHeight: 1000,     // Limite la hauteur
-    imageQuality: 80,    // Compresse la qualité à 80%
+    maxWidth: 1000,      
+    maxHeight: 1000,     
+    imageQuality: 80,    
   );
 
   if (photo != null) {
     setState(() {
-      // Ajoute la photo capturée à la liste existante (permet d'en prendre plusieurs)
+      
       _imagesSelectionnees.add(photo);
     });
   }
@@ -215,7 +215,7 @@ class _EcranPublicationState extends State<EcranPublication> {
                 onSaved: (val) => titre = val!,
               ),
               
-              // Menu déroulant pour le choix de la catégorie
+              
               DropdownButtonFormField<String>(
                 value: categorie,
                 decoration: const InputDecoration(labelText: 'Catégorie'),
